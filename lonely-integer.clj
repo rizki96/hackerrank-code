@@ -1,5 +1,4 @@
-; Enter your code here. Read input from STDIN. Print output to STDOUT
-;
+; https://www.hackerrank.com/challenges/lonely-integer
 (require '[clojure.string :as str])
 (def array-of-ints 
     (fn [string]

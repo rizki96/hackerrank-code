@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/alternating-characters
 (defn input-strings [num]
     (loop [a0 num res []]
         (if (> a0 0)

@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/insertionsort2
 (defn input-ints [string num]
     (map #(Integer/parseInt %) (first (split-at num (clojure.string/split string #" "))))
 )

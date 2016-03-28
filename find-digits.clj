@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/find-digits
 (defn input-digits [t]
     (loop [a0 t res []] 
         (if (> a0 0) 

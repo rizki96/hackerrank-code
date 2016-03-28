@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/pangrams
 (require '[clojure.string :as str])
 (defn pangrams [string]
     (let [lc (str/lower-case string)]

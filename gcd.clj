@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/functional-programming-warmups-in-recursion---gcd
 (def gcd 
 (fn [a b] ( 
     (loop [k a m b]

@@ -1,3 +1,4 @@
+; https://www.hackerrank.com/challenges/funny-string
 (defn input-strings [t]
     (loop [a0 t res []]
         (if (> a0 0)
